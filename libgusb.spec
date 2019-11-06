@@ -1,8 +1,8 @@
 Name:          libgusb
 Version:       0.3.0
-Release:       4
+Release:       5
 Summary:       GObject-based library for libusb1
-License:       LGPL-2.1+
+License:       LGPLv2+
 URL:           https://github.com/hughsie/libgusb
 Source0:       http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
 BuildRequires: vala-devel vala-tools meson libusb1-devel gtk-doc gobject-introspection-devel glib2-devel
@@ -56,5 +56,17 @@ The %{name}-devel package contains libraries and header files for %{name}.
 %{_datadir}/gtk-doc/html/gusb/*
 
 %changelog
+* Wed Oct 9 2019 openEuler Buildteam <buildteam@openeuler.org> - 0.3.0-5
+- Type:bugfix
+- Id:NA
+- SUG:NA
+- DESC: Modify the license
+
 * Wed Sep 4 2019 openEuler Buildteam <buildteam@openeuler.org> - 0.3.0-4
-- Package init
+- Type:enhancement
+- Id:NA
+- SUG:NA
+- DESC: Add a new subpackage of help
+
+* Thu Aug 22 2019 openEuler Buildteam <buildteam@openeuler.org> - 0.3.0-3
+- Package init 
