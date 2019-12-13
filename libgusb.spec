@@ -5,7 +5,7 @@ Summary:       GObject-based library for libusb1
 License:       LGPLv2+
 URL:           https://github.com/hughsie/libgusb
 Source0:       http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
-BuildRequires: vala-devel vala-tools meson libusb1-devel gtk-doc gobject-introspection-devel glib2-devel
+BuildRequires: vala-devel vala-tools meson libusb1-devel gtk-doc gobject-introspection-devel glib2-devel libxslt
 
 %description
 GUsb is a GObject wrapper for libusb1 that makes it easy to do
