@@ -57,7 +57,7 @@ The %{name}-devel package contains libraries and header files for %{name}.
 
 %changelog
 * Wed Jul 22 2020 zhouhaibo <zhouhaibo@huawei.com> - 0.3.4-1
-- 
+- Package update 
 
 * Wed Oct 9 2019 openEuler Buildteam <buildteam@openeuler.org> - 0.3.0-5
 - Type:bugfix
