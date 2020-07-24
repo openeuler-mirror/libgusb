@@ -1,6 +1,6 @@
 Name:          libgusb
-Version:       0.3.0
-Release:       5
+Version:       0.3.4
+Release:       1
 Summary:       GObject-based library for libusb1
 License:       LGPLv2+
 URL:           https://github.com/hughsie/libgusb
@@ -56,6 +56,9 @@ The %{name}-devel package contains libraries and header files for %{name}.
 %{_datadir}/gtk-doc/html/gusb/*
 
 %changelog
+* Wed Jul 22 2020 zhouhaibo <zhouhaibo@huawei.com> - 0.3.4-1
+- Package update 
+
 * Wed Oct 9 2019 openEuler Buildteam <buildteam@openeuler.org> - 0.3.0-5
 - Type:bugfix
 - Id:NA
