@@ -1,5 +1,5 @@
 Name:          libgusb
-Version:       0.3.4
+Version:       0.3.5
 Release:       1
 Summary:       GObject-based library for libusb1
 License:       LGPLv2+
@@ -56,6 +56,12 @@ The %{name}-devel package contains libraries and header files for %{name}.
 %{_datadir}/gtk-doc/html/gusb/*
 
 %changelog
+* Wed Jan 27 2021 hanhui <hanhui15@huawei.com> - 0.3.5-1
+- Type: enhancement
+- ID:   NA
+- SUG:  NA
+- DESC: update to 0.3.5
+
 * Wed Jul 22 2020 zhouhaibo <zhouhaibo@huawei.com> - 0.3.4-1
 - Package update 
 
