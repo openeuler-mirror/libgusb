@@ -1,10 +1,11 @@
 Name:          libgusb
-Version:       0.3.5
+Version:       0.3.8
 Release:       1
 Summary:       GObject-based library for libusb1
 License:       LGPLv2+
 URL:           https://github.com/hughsie/libgusb
 Source0:       http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
+
 BuildRequires: vala-devel vala-tools meson libusb1-devel gtk-doc gobject-introspection-devel glib2-devel libxslt
 
 %description
@@ -56,6 +57,9 @@ The %{name}-devel package contains libraries and header files for %{name}.
 %{_datadir}/gtk-doc/html/gusb/*
 
 %changelog
+* Fri Dec 03 2021 wangkerong <wangkerong@huawei.com> - 0.3.8-1
+- update to 0.3.8
+
 * Wed Jan 27 2021 hanhui <hanhui15@huawei.com> - 0.3.5-1
 - Type: enhancement
 - ID:   NA
