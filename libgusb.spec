@@ -1,6 +1,6 @@
 Name:          libgusb
 Version:       0.3.8
-Release:       1
+Release:       2
 Summary:       GObject-based library for libusb1
 License:       LGPLv2+
 URL:           https://github.com/hughsie/libgusb
@@ -35,6 +35,9 @@ The %{name}-devel package contains libraries and header files for %{name}.
 %meson_install
 %ldconfig_scriptlets
 
+%check
+%meson_test
+
 %files 
 %defattr(-,root,root)
 %doc AUTHORS COPYING
@@ -57,6 +60,9 @@ The %{name}-devel package contains libraries and header files for %{name}.
 %{_datadir}/gtk-doc/html/gusb/*
 
 %changelog
+* Sat Mar 26 2022 wangkerong <wangkerong@h-partners.com> - 0.3.8-2
+- enable test case
+
 * Fri Dec 03 2021 wangkerong <wangkerong@huawei.com> - 0.3.8-1
 - update to 0.3.8
 
